@@ -2081,14 +2081,67 @@ button:active {
         opacity: 0;
 
     }
-
+}
+   
+.sticker-cap1 {
+    position: absolute;
+    width: 150px;
+    top: 45px;
+    right: 45px;
+    left: auto;
+    transform: rotate(-12deg);
+    z-index: 20;
 }
 
+
+/* -------- PANTALLA 2 -------- */
+
+.sticker-cap2 {
+    position: absolute;
+    width: 130px;
+    top: 56px;
+    right: 60px;
+    left: auto;
+    transform: rotate(-12deg);
+    z-index: 20;
+}
+
+
+/* -------- PANTALLA 3 -------- */
+
+.sticker-cap3 {
+    position: absolute;
+    width: 130px;
+    top: 56px;
+    right: 60px;
+    left: auto;
+    transform: rotate(-12deg);
+    z-index: 20;
+}
+
+
+/* -------- PANTALLA 4 -------- */
+
+.sticker-cap4 {
+    position: absolute;
+    width: 250px;
+    top: 250px;
+    left: -170px;
+    right: auto;
+    transform: rotate(-12deg);
+    z-index: 20;
+}
+
+
 /* =========================================
-   RESPONSIVE CELULAR
+   📱 RESPONSIVE CELULAR
 ========================================= */
 
 @media (max-width: 600px) {
+
+    /* ================================
+       FONDO
+    ================================= */
 
     .moon {
 
@@ -2097,7 +2150,6 @@ button:active {
 
         top: 4%;
         right: 4%;
-
     }
 
 
@@ -2108,7 +2160,6 @@ button:active {
 
         top: 18px;
         left: 20px;
-
     }
 
 
@@ -2119,7 +2170,6 @@ button:active {
 
         top: 42px;
         left: 50px;
-
     }
 
 
@@ -2130,7 +2180,6 @@ button:active {
 
         top: 62px;
         left: 30px;
-
     }
 
 
@@ -2141,7 +2190,6 @@ button:active {
 
         top: 25px;
         left: 65px;
-
     }
 
 
@@ -2149,9 +2197,12 @@ button:active {
 
         left: 5%;
         top: 15%;
-
     }
 
+
+    /* ================================
+       TARJETAS
+    ================================= */
 
     .glass-card {
 
@@ -2162,30 +2213,30 @@ button:active {
         padding: 32px 22px;
 
         border-radius: 25px;
-
     }
 
+
+    /* ================================
+       TEXTOS
+    ================================= */
 
     .eyebrow {
 
         font-size: 9px;
 
         letter-spacing: 3px;
-
     }
 
 
     h1 {
 
         font-size: 48px;
-
     }
 
 
     .glass-card h2 {
 
         font-size: 19px;
-
     }
 
 
@@ -2194,7 +2245,6 @@ button:active {
         font-size: 15px;
 
         line-height: 1.6;
-
     }
 
 
@@ -2203,7 +2253,6 @@ button:active {
         font-size: 15px;
 
         line-height: 1.7;
-
     }
 
 
@@ -2212,42 +2261,110 @@ button:active {
         padding: 14px 22px;
 
         font-size: 14px;
-
     }
 
 
-    /* Pastel celular */
+    /* ================================
+       🎀 STICKER PANTALLA 1
+    ================================= */
+
+    .sticker-cap1 {
+
+        width: 95px;
+
+        top: 25px;
+
+        right: 18px;
+
+        left: auto;
+
+        transform: rotate(-12deg);
+    }
+
+
+    /* ================================
+       🎀 STICKER PANTALLA 2
+    ================================= */
+
+    .sticker-cap2 {
+
+        width: 85px;
+
+        top: 25px;
+
+        right: 15px;
+
+        left: auto;
+
+        transform: rotate(-12deg);
+    }
+
+
+    /* ================================
+       🎀 STICKER PANTALLA 3
+    ================================= */
+
+    .sticker-cap3 {
+
+        width: 85px;
+
+        top: 25px;
+
+        right: 15px;
+
+        left: auto;
+
+        transform: rotate(-12deg);
+    }
+
+
+    /* ================================
+       🎀 STICKER PANTALLA 4
+    ================================= */
+
+    .sticker-cap4 {
+
+        width: 120px;
+
+        top: 180px;
+
+        left: 5px;
+
+        right: auto;
+
+        transform: rotate(-12deg);
+    }
+
+
+    /* ================================
+       🎂 PASTEL
+    ================================= */
 
     .cake-section {
 
         height: 92vh;
-
     }
 
 
     .cake-title {
 
         font-size: 27px;
-
     }
 
 
     .cake-instruction {
 
         font-size: 14px;
-
     }
 
 
     .cake {
 
-        transform:
-            scale(0.78);
+        transform: scale(0.78);
 
         margin-top: -5px;
 
         margin-bottom: -25px;
-
     }
 
 
@@ -2256,9 +2373,12 @@ button:active {
         font-size: 17px;
 
         margin-top: -5px;
-
     }
 
+
+    /* ================================
+       🎉 FELICITACIÓN
+    ================================= */
 
     .birthday-message {
 
@@ -2267,61 +2387,63 @@ button:active {
         height: 90vh;
 
         border-radius: 25px;
-
     }
 
 
     .birthday-message h1 {
 
         font-size: 38px;
-
     }
 
 
     .birthday-message p {
 
         font-size: 15px;
-
     }
 
 
     .celebration-icon {
 
         font-size: 60px;
-
     }
 
+
+    /* ================================
+       💌 CARTA FINAL
+    ================================= */
 
     .final-letter p {
 
         font-size: 15px;
-
     }
-    
-        /* Foto final en celular */
+
+
+    /* ================================
+       📸 FOTO FINAL
+    ================================= */
 
     .final-photo-container {
 
         width: 240px;
+
         height: 240px;
 
         margin: 18px auto;
-
     }
 
 
     .photo-frame {
 
         width: 175px;
-        height: 175px;
 
+        height: 175px;
     }
 
 
     .floating-hearts span {
 
         font-size: 20px;
-
     }
 
 }
+
