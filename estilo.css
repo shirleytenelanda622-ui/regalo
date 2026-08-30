@@ -2263,76 +2263,25 @@ button:active {
         font-size: 14px;
     }
 
-
-    /* ================================
-       🎀 STICKER PANTALLA 1
-    ================================= */
-
-    .sticker-cap1 {
-
-        width: 95px;
-
-        top: 25px;
-
-        right: 18px;
-
-        left: auto;
-
-        transform: rotate(-12deg);
-    }
-
-
-    /* ================================
-       🎀 STICKER PANTALLA 2
-    ================================= */
-
-    .sticker-cap2 {
-
-        width: 85px;
-
-        top: 25px;
-
-        right: 15px;
-
-        left: auto;
-
-        transform: rotate(-12deg);
-    }
-
-
-    /* ================================
-       🎀 STICKER PANTALLA 3
-    ================================= */
-
-    .sticker-cap3 {
-
-        width: 85px;
-
-        top: 25px;
-
-        right: 15px;
-
-        left: auto;
-
-        transform: rotate(-12deg);
-    }
-
-
-    /* ================================
-       🎀 STICKER PANTALLA 4
-    ================================= */
-
+    .sticker-cap1,
+    .sticker-cap2,
+    .sticker-cap3,
     .sticker-cap4 {
 
-        width: 120px;
+        position: relative;
 
-        top: 180px;
+        width: 90px;
+        height: auto;
 
-        left: 5px;
-
+        top: auto;
+        bottom: auto;
+        left: auto;
         right: auto;
+        display: block;
+        margin: 10px;
 
-        transform: rotate(-12deg);
+        transform: rotate(-8deg);
+        z-index: 1;
     }
 
 
@@ -2342,7 +2291,10 @@ button:active {
 
     .cake-section {
 
-        height: 92vh;
+        width: 100%;
+        min-height: 92vh;
+        height: auto;
+        padding: 20px 10px;
     }
 
 
